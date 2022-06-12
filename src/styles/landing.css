@@ -1,0 +1,32 @@
+.landingHero {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/53b839afe4b07ea978436183/1608506169128-S6KYNEV61LEP5MS1UIH4/traditional-food-around-the-world-Travlinmad.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
+  background-blend-mode: overlay;
+  min-height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landingHero section h1,
+p {
+  color: white;
+}
+
+.action-btn {
+  border: 1px solid red;
+  border-radius: 2rem;
+  color: black;
+  padding: 1rem 4rem;
+  background: white;
+}
+
+.action-btn:hover {
+  text-decoration: none;
+  font-weight: bold;
+  background: rgb(225, 225, 225);
+}
