@@ -6,6 +6,7 @@
 email:dev@ineuron.ai
 password:ineuron.ai
 ```
+### [View iNeuron Restro CMS Repo](https://github.com/Md-Mudassir/ineuron-restro-cms)
 
 ## QR to Scan (Only Opens the website)
 
