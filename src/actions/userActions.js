@@ -50,7 +50,7 @@ export const register = (username, email, password) => async (dispatch) => {
       type: USER_REGISTER_REQUEST,
     });
 
-    const { data } = await axios.post(`${BASE_URL}/api/auth/local/register`, {
+    const data = await axios.post(`${BASE_URL}/api/auth/local/register`, {
       username,
       email,
       password,
